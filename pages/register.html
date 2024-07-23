@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="../style/register.css">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <!-- toastify -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        
+        <form id="register-form" class="auth-form">
+            <h1 class="form-title">Register</h1>
+            <input id="register-name" required type="text" placeholder="Enter your name">
+            <input id="register-email" required type="email" placeholder="Enter your email ">
+            <input id="register-password" required type="password" placeholder="Enter your password " maxlength="8">
+            <input id="register-url" required type="url" placeholder="Create your avatar URL ">
+            <button id="register-btn" class="auth-btn" type="submit">Register</button>
+            <p>Already have an account? <a style="color: rgb(156, 0, 122); margin-left: 10px; font-size: 18px;" href="./login.html">Login</a></p>
+
+        </form>
+    </div>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="../script/register.js" ></script>
+</body>
+</html>

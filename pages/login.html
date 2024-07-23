@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../style/login.css">
+ 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+ 
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <form id="login-form" class="auth-form">
+            <h1 style="color: #0a3593; " class="form-title">Login !</h1>
+            <input id="login-email" required type="email" placeholder="Enter your email ">
+            <input id="login-password" required type="password" placeholder="Enter your password " maxlength="8">
+            <button class="auth-btn" type="submit">Login</button>
+            <p>Doesn't have any account? <a style="color: rgb(156, 0, 122); margin-left: 10px; font-size: 18px;" href="./register.html">Register</a></p>
+
+        </form>
+    </div>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="../script/login.js"></script>
+</body>
+</html>
